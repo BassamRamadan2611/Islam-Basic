@@ -31,8 +31,8 @@ color: #009879;
  font-weight: 700;
 }
 .box{
-    display: flex;
-    justify-content: space-around;
+    display: block;
+  
 
 }
 .time{
