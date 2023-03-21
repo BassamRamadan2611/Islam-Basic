@@ -1,0 +1,23 @@
+
+  
+<div class="container">
+
+
+  <div class="surah my-4"*ngIf="!loading" >
+
+    <h3 class="text-center mb-4">{{surahName}}</h3>
+
+            <div  *ngFor="let surah of data">
+       
+
+                <p class="text">
+             {{surah.text.arab}}<label>({{surah.number.inSurah}})</label>  
+                </p>
+         
+            </div>
+            </div>
+            <div class="text-center w-100" *ngIf="loading">
+                <app-loading-spinner></app-loading-spinner>
+                         </div>
+      
+    </div>

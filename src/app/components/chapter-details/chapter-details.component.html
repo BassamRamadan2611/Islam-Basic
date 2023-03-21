@@ -1,0 +1,16 @@
+<div class="chapters">
+    <div class="row">
+        <div class="col-md-3" *ngFor="let chapter of AllChapters let i=index " routerLink="/chapter-hadiths/{{chapter.chapterNumber}}">
+            <div class="ch-data">
+          <div class="d-flex" style="color: #009879;">
+            <span style="font-weight: 600;">{{chapter.chapterNumber}}.</span>
+            <span style="font-weight: 600;">{{chapter.chapterEnglish}}</span>
+          </div>
+<p>{{booksName[i]}}</p>
+          <p>{{chapter.chapterUrdu}}</p>
+          <p>{{chapter.chapterArabic}}</p>
+            </div>
+        </div>
+        
+    </div>
+</div>

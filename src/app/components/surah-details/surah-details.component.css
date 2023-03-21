@@ -1,0 +1,45 @@
+.modal-body {
+display: inline;
+}
+
+label{
+    display: inline-block;
+    color: #0da755;
+}
+.text {
+text-align: center;
+ 
+}
+.container{
+    display: flex;
+    justify-content: center;
+ 
+}
+
+.surah{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #fff;
+   padding: 20px;
+   width: 400px;
+   height: auto;
+   border-radius: 10px;
+  
+   
+}
+
+
+.number{
+    clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+    background-color: rgb(100,99,99);
+
+    width: 35px;
+    height: 35px;
+    padding: 4px;
+    text-align: center;
+
+
+   
+    
+  
+}
+

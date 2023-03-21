@@ -1,0 +1,111 @@
+:root {
+    --main-color: #0072d3;
+    --second-color: #125893;
+    --bg-pr: #fff;
+    --bg-sc: #fafaff;
+    --bg-th: #f2f2fc;
+    --bg-black-50: #e8dfec;
+    --text-color: #333;
+    --p-color: #666;
+    --boxshadow-color: #ddd;
+    --main-transition: .3s;
+    --main-border-radius: 10px;
+}
+
+
+.contact{
+    background-color: #f1f1f1;
+    margin-top: 55px;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.contact .main-title {
+    text-align: center;
+ 
+   position: relative;
+    margin-bottom: 55px;
+    
+
+}
+
+
+.shadow{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+        width: 95%;
+        border-radius: 25px;
+    margin: auto;
+    
+}
+.social-content{
+    padding: 20px 0 20px 10px;
+}
+.social-content h5{
+    color :#009879;
+    padding: 10px 0 10px 0;
+}
+.social-content p{
+    font-size: 1.1rem;
+    line-height: 1.9;
+    color :#009879;
+}
+.links{
+    padding: 10px 0 20px 0;
+}
+.links a{
+    display: block;
+    text-decoration: none;
+    color: #333;
+    padding-top: 10px;
+    font-size: 1.3rem;
+ 
+}
+
+.links .link {
+    display: flex;
+    flex: row;
+} .links .link  i{
+    margin-top: 20px;
+    margin-right: 10px;
+    font-size: 1.3rem;
+    color :#009879;
+}
+.contact-icons{
+    display: flex;
+    flex-direction: row-reverse;
+    padding :20px 0 50px 10px
+    
+}
+.contact-icons a{
+    padding: 10px;
+   
+}
+.contact-icons a i{
+    font-size: 1.5rem;
+}
+.contact-form{
+    padding: 20px 0 20px 10px;
+    text-transform: capitalize;
+}
+.contact-form h3{
+    color:#fff;
+    font-weight: 600;
+    padding: 10px 0 20px 0 ;
+}
+ form input, form textarea {
+    border-radius: 10px;
+    background: none;
+     color: #fff;
+    border: 2px solid #ffff;
+    outline: none;
+ }
+
+ form input::placeholder, form textarea::placeholder {
+color: #fff;
+font-weight: 600;
+ }
+ form .btn{
+background-color: #fff;
+border: none;
+color :#009879;
+font-weight: 600;
+ }

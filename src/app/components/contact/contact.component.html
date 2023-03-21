@@ -1,0 +1,78 @@
+<div class="contact py-4" id="contact">
+    <div class="container py-4 ">
+  
+<div class="shadow">
+    <div class="row">
+        <div class="col-md-6 bg-white">
+            <div class="social-content">
+
+                <h5>مواقعنا الاجتماعية</h5>
+                <p>ستجد هنا بعض المعلومات عنا كالبريد الإلكتروني ، ورقم الهاتف ، ومواقع التواصل الاجتماعي ، لا تنسى متابعتنا.</p>
+<div class="links" dir="ltr">
+    <div class="link">
+        <i class="fa fa-envelope" aria-hidden="true"></i>
+        <a href="mailto:bassamramadan964@gmail.com" class="mail"> bassamramadan964@gmail.com</a>
+      
+    </div>
+    <div class="link">
+        <i class="fa fa-phone-square" aria-hidden="true"></i>
+
+        <a href="tel:01159350591" class="phone">(+20) 11-59-35-05-91</a>
+
+    </div>
+
+</div>
+
+             
+                <div class="contact-icons ">
+                    <a href="https://www.linkedin.com/in/bassam-ramadan-14436a185/" class="home__social-icon" style="color: #0072d3;"><i class="fab fa-linkedin" ></i></a>
+                    <a href="https://github.com/BassamRamadan2611" class="home__social-icon" style="color: #333;"><i class="fab fa-github"></i></a>
+                     <a href="https://twitter.com/BassamR52891973" class="home__social-icon"><i class="fab fa-twitter"></i></a>
+                     <a href="https://www.instagram.com/bassam9174/" class="home__social-icon" style="color: #dd2a7b;"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100007638137434" class="home__social-icon" style="color: #3b5998;"><i class="fab fa-facebook" ></i></a>
+                    <a href="mailto: bassamramadan964@gmail.com" class="home__social-icon" style="color: #ec1346;">   <i class="fa fa-envelope" ></i></a>
+            
+                 
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6" style="background-color: #009879;">
+            <div class="contact-form">
+                <h3>تواصل معي</h3>
+                <form [formGroup]="FormData" (ngSubmit)="onSubmit(FormData.value)" >
+                    <div class="row">
+                    <div class="col-md-12">
+                    <div class="form-group">
+                    <input type="text" class="form-control" formControlName="Fullname" placeholder="الاسم بالكامل">
+                    </div>
+                    </div>
+                    <div class="col-md-12">
+                    <div class="form-group">
+                    <input type="email" class="form-control" formControlName="Email" placeholder="البريدالاكتروني">
+                    </div>
+                    </div>
+                
+                    <div class="col-md-12">
+                    <div class="form-group">
+                    <textarea name="message" class="form-control" formControlName="Message" cols="30" rows="7" placeholder=" رسالتك"></textarea>
+                    </div>
+                    </div>
+                    <div class="col-md-12">
+                    <div class="form-group">
+                    <input type="submit" value="ارسال "   [disabled]="!FormData.valid" class="btn ">
+                  
+                    </div>
+                    </div>
+                    </div>
+                    </form>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+</div>
+</div>

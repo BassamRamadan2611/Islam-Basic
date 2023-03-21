@@ -1,0 +1,22 @@
+<div class="audio">
+
+    <div class="container py-4">
+  
+    
+                <input  [(ngModel)]="term" class="form-control w-50 m-auto"  placeholder="البحث في سور القران الكريم">
+   
+        <div class="row py-2" *ngIf="!loading" >
+            <div class="col-md-6 " *ngFor="let surah of surahData |searchQuraanAudio:term;let i=index ">
+                <div class="surah m-2 ">
+                    <span class="number">{{surah.index}}</span>
+              <span class="text">{{surah.titleAr}}</span>
+              
+               <audio src="https://server6.mp3quran.net/thubti/{{surah.index}}.mp3" controls></audio> 
+                </div>
+            </div>
+        </div>
+        <div class="text-center w-100" *ngIf="loading">
+            <app-loading-spinner></app-loading-spinner>
+                     </div>
+    </div>
+</div>

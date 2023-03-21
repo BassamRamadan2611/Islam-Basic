@@ -1,0 +1,38 @@
+.bg{
+    background-color:#009879 ;
+}
+.footer-social {
+ 
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    border-radius: 50px;
+    gap: 8px;
+    margin: 0 auto 20px;
+    padding: 20px  10px 10px ;
+}
+.footer-social a{
+    padding: 10px;
+}
+.footer-social a i {
+    color: #fff ;
+    font-size: 1.5rem;
+}
+.copyright{
+    color: #fff ;
+    font-size: 18px;
+    position: relative;
+    text-align: center;
+    border-top: 2px solid #ffff ;
+    padding: 10px 0px 30px;
+    font-weight: bold;
+    margin-bottom: 0;
+   
+ 
+}
+.copyright a{
+    text-decoration: none;
+
+    color: #ffff;
+}

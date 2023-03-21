@@ -1,0 +1,19 @@
+
+<div class="container mt-4">
+
+
+<div class="row py-4"  *ngIf="!loading" >
+<div class="data " *ngFor="let surah of AllSurah  ; let i = index"  >
+      
+       <app-surah [data]="surah"></app-surah>
+    </div>
+   
+    
+</div>
+
+
+
+    <div class="text-center w-100" *ngIf="loading">
+        <app-loading-spinner></app-loading-spinner>
+                 </div>
+                </div>

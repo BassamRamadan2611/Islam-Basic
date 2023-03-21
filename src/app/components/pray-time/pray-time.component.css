@@ -1,0 +1,46 @@
+.pray-time{
+    background-color: #f1f1f1!important;
+}
+.table{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+.head{
+  
+    color: #009879;
+    padding: 10px;
+    margin-top: 0;
+    text-align: center;
+    
+}
+.data{
+    background-color: #fff;
+    position: relative;
+    padding: 50px;
+    margin: auto;
+    text-align: right;
+    border-radius: 10px;
+}
+
+.date-right span,.date-left span{
+    margin: 5px;
+ font-size: 1.2rem;
+color: #009879;
+ text-align: center;
+ font-weight: 700;
+}
+.box{
+    display: flex;
+    justify-content: space-around;
+
+}
+.time{
+    position: absolute;
+    background-color: #009879;
+    color: #fff;
+    padding: 10px;
+   font-weight: 600;
+   top: 0;
+   left: 45%;
+}

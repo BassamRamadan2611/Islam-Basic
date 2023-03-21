@@ -1,0 +1,66 @@
+
+<div class="pray-time" dir="rtl">
+<div class="head py-4">
+    <h1>مواقيت الصلاة</h1>
+  
+</div>
+<div class="container"  *ngIf="!loading">
+<div class="data mt-3">
+   
+  <div class="box ">
+    <div class="date-right m-4 d-flex">
+        <span >{{hijri.weekday.ar}} </span>
+
+        <span>{{hijri.day }}  </span>
+        <span>{{hijri.month.ar}} -</span>
+        <span>{{hijri.year}}</span>
+    </div>
+    <div class="time d-flex" > {{time}} </div>
+    <div class="m-4 pt-2" style="font-size: 1.2rem;font-weight: bold;color: #009879;"> |</div>
+    <div class="date-left d-flex m-4">
+        <span>{{gregorian.day}} </span>
+        <span>{{gregorian.month.number}} </span>
+    
+        <span>{{gregorian.year}}</span>
+    </div>
+  </div>
+
+
+<table  class="mt-5  table" cellpadding="0">
+    <tbody style="font-size: 1.2rem;">
+        <tr style="background-color:#009879 ;color: #fff;">
+        <th scope="col">التوقيت</th>
+        <th scope="col">الساعة</th>
+    </tr>
+    <tr>
+        <td class="grey">الفجر</td>
+        <td>{{timings.Fajr}} </td>
+    </tr>
+    <tr>
+        <td class="grey">الشروق</td>
+        <td> {{timings.Sunrise}}</td>
+    </tr>
+    <tr>
+        <td class="grey">الظهر</td>
+        <td>{{timings.Dhuhr}}</td>
+    </tr>
+    <tr>
+        <td class="grey">العصر</td>
+        <td>{{timings.Asr}}</td>
+    </tr>
+    <tr>
+        <td class="grey">المغرب</td>
+        <td>{{timings.Maghrib}}</td>
+    </tr>
+    <tr>
+        <td class="grey">العشاء</td>
+        <td>{{timings.Isha}}</td>
+    </tr>
+</tbody></table>
+</div>
+</div>
+
+<div class="text-center w-100" *ngIf="loading">
+    <app-loading-spinner></app-loading-spinner>
+             </div>
+</div>

@@ -1,0 +1,24 @@
+.hadiths{
+    background-color: #fff;
+    direction: ltr;
+    padding-top: 20px;
+  
+}
+
+.data {
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+   padding: 20px;
+   margin: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    border: 1px solid #009879;
+}
+.data h5{
+    color: #009879;
+    font-weight: 700;
+}
+.hadiths h3{
+    color: #009879;
+}
